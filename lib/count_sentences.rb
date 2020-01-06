@@ -23,13 +23,6 @@ class String
     self.split(/\.|\?|\!/).size
     
   end
-    # sentences = []
- 	  # self.split("").each do |char|
- 		 # if char == "!" || char == "?"|| char == "."
- 			# sentences << char
- 		 # end
- 	  # end
- 	  # sentences.length
-    # end
+   
   
 end
