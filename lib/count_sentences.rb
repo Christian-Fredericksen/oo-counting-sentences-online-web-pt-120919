@@ -21,7 +21,7 @@ class String
   
     sentences = []
     #self.split(/\.|\?|\!/).delete_if{|e|e.length<1}.length
-    self.split([/\.|\?|\!/]).length
+    self.split[/\.|\?|\!/].length
   end
    
   
