@@ -20,7 +20,7 @@ class String
   def count_sentences
     binding.pry
     sentences = []
-    self.split(/[.!?]/).size
+    self.split(/\.|\?|\!/).size
     
   end
     # sentences = []
