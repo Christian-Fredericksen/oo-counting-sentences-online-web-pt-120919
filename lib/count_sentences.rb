@@ -20,8 +20,7 @@ class String
   def count_sentences
   
     sentences = []
-    #self.split(/\.|\?|\!/).delete_if{|e|e.length<1}.length
-    self.split[\.?!\].length
+    self.split(/\.|\?|\!/).delete_if{|e|e.length<1}.length
   end
    
   
