@@ -20,7 +20,7 @@ class String
   def count_sentences
     binding.pry
     sentences = []
-    self.split(/\.|\?|\!/)
+    self.split(/\.|\?|\!/).delete_if{|e|e.length<1}.length
     
   end
    
